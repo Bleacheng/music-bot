@@ -1,17 +1,19 @@
 # huzzbot
 this repo contains a script for a discord bot that plays music with stylised commands, using the discord.py library
 
-## Dependencies
+## How to set up the bot so you can use it too 🐸
+### Dependencies ###
 `pip install discord.py`
 `pip install python-dotenv`
 `pip install yt-dlp`
 `pip install PyNaCl`
+
 **FFmpeg** will also be required to be installed https://www.ffmpeg.org/download.html
 can be done by storing the executable file (.exe) in this folder structure: *bin/ffmpeg/ffmpeg.exe
 
-### Setup ###
+Also create a discord bot by following this guide: https://discordpy.readthedocs.io/en/stable/discord.html
 
-Step 1, create a discord bot by following this guide: https://discordpy.readthedocs.io/en/stable/discord.html
+### Setup ###
 
 Rename '.env.example' to '.env' and replace your_discord_token_here and your_guild_id_here like so:
 
@@ -35,9 +37,9 @@ Then save this and you can run your bot, YAY.
 The gitignore should ignore this file so you don't leak info even by accident. 
 This mainly applies to the DISCORD_TOKEN I realise, doesn't really apply to the GUILD_ID.
 
-### How it works ###
+## How it works
 basically yt-dlp searches for a song on youtube and creates a stream of it
 FFMPEG uses that stream to play the audio on youtube
 
-### Future improvements to be done ###
+## Future improvements to be done
 - Add Soundcloud and Spotify API support as well
