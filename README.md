@@ -37,11 +37,11 @@ Then save this and you can run your bot, YAY.
 The gitignore should ignore this file so you don't leak info even by accident. 
 This mainly applies to the DISCORD_TOKEN I realise, doesn't really apply to the GUILD_ID.
 
-## How it works
+## How it works 🦀
 basically yt-dlp searches for a song on youtube and creates a stream of it
 FFMPEG uses that stream to play the audio on youtube
 
 Use the `/huzz` command for a description of all commands :)
 
-## Future improvements to be done
+## Future improvements to be done 🔥
 - Add Soundcloud and Spotify API support as well
