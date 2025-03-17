@@ -1,4 +1,4 @@
-# huzzbot
+# music-bot
 this repo contains a script for a discord bot that plays music with stylised commands, using the discord.py library
 
 ## How to set up the bot so you can use it too 🐸
